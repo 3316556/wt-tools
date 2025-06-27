@@ -1,0 +1,3269 @@
+[
+  {
+    "Type": "Atlas_8x4_Dump_C",
+    "Name": "Default__Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.Atlas_8x4_Dump_C'",
+    "Template": {
+      "ObjectName": "MTVehicleBaseBP_C'Default__MTVehicleBaseBP_C'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.16"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ExControls": [
+        "EMTVehicleExControl::Light_ToggleInternal",
+        "EMTVehicleExControl::Sleep",
+        "EMTVehicleExControl::Dump_Raise",
+        "EMTVehicleExControl::Dump_Lower"
+      ],
+      "BodyMaterialNames": [],
+      "DecalableMaterialSlotNames": [
+        "CargoBed_01",
+        "Body_01",
+        "Body_02",
+        "CargoBed_02"
+      ],
+      "ColorSlots": [
+        {
+          "Key": "Body_01",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/DataAsset/StringTables/VehicleBodyColorSlot.VehicleBodyColorSlot",
+              "Key": "Body1",
+              "SourceString": "Body1",
+              "LocalizedString": "Body1"
+            },
+            "bUseColorAlpha": false,
+            "DefaultColor": {
+              "B": 255,
+              "G": 255,
+              "R": 255,
+              "A": 255,
+              "Hex": "FFFFFF"
+            }
+          }
+        },
+        {
+          "Key": "Body_02",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/DataAsset/StringTables/VehicleBodyColorSlot.VehicleBodyColorSlot",
+              "Key": "Body2",
+              "SourceString": "Body2",
+              "LocalizedString": "Body2"
+            },
+            "bUseColorAlpha": false,
+            "DefaultColor": {
+              "B": 255,
+              "G": 255,
+              "R": 255,
+              "A": 255,
+              "Hex": "FFFFFF"
+            }
+          }
+        },
+        {
+          "Key": "Window",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/DataAsset/StringTables/VehicleBodyColorSlot.VehicleBodyColorSlot",
+              "Key": "Window1",
+              "SourceString": "Window1",
+              "LocalizedString": "Window1"
+            },
+            "bUseColorAlpha": true,
+            "DefaultColor": {
+              "B": 150,
+              "G": 158,
+              "R": 101,
+              "A": 63,
+              "Hex": "3F659E96"
+            }
+          }
+        },
+        {
+          "Key": "Seats_01",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/DataAsset/StringTables/VehicleBodyColorSlot.VehicleBodyColorSlot",
+              "Key": "Seat1",
+              "SourceString": "Seat1",
+              "LocalizedString": "Seat1"
+            },
+            "bUseColorAlpha": false,
+            "DefaultColor": {
+              "B": 101,
+              "G": 101,
+              "R": 101,
+              "A": 255,
+              "Hex": "656565"
+            }
+          }
+        },
+        {
+          "Key": "Seats_02",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/DataAsset/StringTables/VehicleBodyColorSlot.VehicleBodyColorSlot",
+              "Key": "Seat2",
+              "SourceString": "Seat2",
+              "LocalizedString": "Seat2"
+            },
+            "bUseColorAlpha": false,
+            "DefaultColor": {
+              "B": 81,
+              "G": 81,
+              "R": 84,
+              "A": 255,
+              "Hex": "545151"
+            }
+          }
+        },
+        {
+          "Key": "CargoBed_01",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/DataAsset/StringTables/VehicleBodyColorSlot.VehicleBodyColorSlot",
+              "Key": "CargoBed",
+              "SourceString": "Cargo Bed1",
+              "LocalizedString": "Cargo Bed1"
+            },
+            "bUseColorAlpha": false,
+            "DefaultColor": {
+              "B": 174,
+              "G": 174,
+              "R": 174,
+              "A": 255,
+              "Hex": "AEAEAE"
+            }
+          }
+        },
+        {
+          "Key": "CargoBed_02",
+          "Value": {
+            "DisplayName": {
+              "TableId": "/Game/DataAsset/StringTables/VehicleBodyColorSlot.VehicleBodyColorSlot",
+              "Key": "CargoBed2",
+              "SourceString": "Cargo Bed2",
+              "LocalizedString": "Cargo Bed2"
+            },
+            "bUseColorAlpha": false,
+            "DefaultColor": {
+              "B": 174,
+              "G": 174,
+              "R": 174,
+              "A": 255,
+              "Hex": "AEAEAE"
+            }
+          }
+        }
+      ],
+      "BodyColors": [
+        {
+          "Colors": [
+            {
+              "Key": "Body_01",
+              "Value": {
+                "B": 49,
+                "G": 44,
+                "R": 203,
+                "A": 255,
+                "Hex": "CB2C31"
+              }
+            },
+            {
+              "Key": "Body_02",
+              "Value": {
+                "B": 221,
+                "G": 223,
+                "R": 217,
+                "A": 0,
+                "Hex": "D9DFDD"
+              }
+            }
+          ]
+        },
+        {
+          "Colors": [
+            {
+              "Key": "Body_01",
+              "Value": {
+                "B": 85,
+                "G": 98,
+                "R": 48,
+                "A": 0,
+                "Hex": "306255"
+              }
+            },
+            {
+              "Key": "Body_02",
+              "Value": {
+                "B": 97,
+                "G": 98,
+                "R": 95,
+                "A": 0,
+                "Hex": "5F6261"
+              }
+            }
+          ]
+        },
+        {
+          "Colors": [
+            {
+              "Key": "Body_01",
+              "Value": {
+                "B": 98,
+                "G": 84,
+                "R": 64,
+                "A": 0,
+                "Hex": "405462"
+              }
+            },
+            {
+              "Key": "Body_02",
+              "Value": {
+                "B": 97,
+                "G": 98,
+                "R": 95,
+                "A": 0,
+                "Hex": "5F6261"
+              }
+            },
+            {
+              "Key": "CargoBed",
+              "Value": {
+                "B": 97,
+                "G": 98,
+                "R": 95,
+                "A": 0,
+                "Hex": "5F6261"
+              }
+            }
+          ]
+        },
+        {
+          "Colors": [
+            {
+              "Key": "Body_01",
+              "Value": {
+                "B": 56,
+                "G": 60,
+                "R": 98,
+                "A": 0,
+                "Hex": "623C38"
+              }
+            },
+            {
+              "Key": "Body_02",
+              "Value": {
+                "B": 56,
+                "G": 60,
+                "R": 98,
+                "A": 0,
+                "Hex": "623C38"
+              }
+            },
+            {
+              "Key": "CargoBed",
+              "Value": {
+                "B": 56,
+                "G": 60,
+                "R": 98,
+                "A": 0,
+                "Hex": "623C38"
+              }
+            }
+          ]
+        },
+        {
+          "Colors": [
+            {
+              "Key": "Body_01",
+              "Value": {
+                "B": 49,
+                "G": 49,
+                "R": 49,
+                "A": 255,
+                "Hex": "313131"
+              }
+            },
+            {
+              "Key": "Body_02",
+              "Value": {
+                "B": 49,
+                "G": 49,
+                "R": 49,
+                "A": 255,
+                "Hex": "313131"
+              }
+            },
+            {
+              "Key": "CargoBed",
+              "Value": {
+                "B": 49,
+                "G": 49,
+                "R": 49,
+                "A": 255,
+                "Hex": "313131"
+              }
+            }
+          ]
+        },
+        {
+          "Colors": [
+            {
+              "Key": "Body_01",
+              "Value": {
+                "B": 223,
+                "G": 223,
+                "R": 223,
+                "A": 255,
+                "Hex": "DFDFDF"
+              }
+            },
+            {
+              "Key": "Body_02",
+              "Value": {
+                "B": 223,
+                "G": 223,
+                "R": 223,
+                "A": 255,
+                "Hex": "DFDFDF"
+              }
+            },
+            {
+              "Key": "CargoBed",
+              "Value": {
+                "B": 223,
+                "G": 223,
+                "R": 223,
+                "A": 255,
+                "Hex": "DFDFDF"
+              }
+            }
+          ]
+        }
+      ],
+      "RootBody": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "Mesh": {
+        "ObjectName": "StaticMeshComponent'Default__Atlas_8x4_Dump_C:Mesh'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.76"
+      },
+      "SteeringWheel": {
+        "ObjectName": "StaticMeshComponent'Default__Atlas_8x4_Dump_C:SteeringWheel'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.77"
+      },
+      "Wheels": [
+        {
+          "ObjectName": "MHWheelComponent'Default__Atlas_8x4_Dump_C:Wheel0'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.15"
+        },
+        {
+          "ObjectName": "MHWheelComponent'Default__Atlas_8x4_Dump_C:Wheel1'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.16"
+        },
+        {
+          "ObjectName": "MHWheelComponent'Default__Atlas_8x4_Dump_C:Wheel2'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.17"
+        },
+        {
+          "ObjectName": "MHWheelComponent'Default__Atlas_8x4_Dump_C:Wheel3'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.18"
+        }
+      ],
+      "EngineComponent": {
+        "ObjectName": "MTEngineComponent'Default__Atlas_8x4_Dump_C:Engine'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.22"
+      },
+      "DriverSeatInteractionSphereComponent": {
+        "ObjectName": "SphereComponent'Default__Atlas_8x4_Dump_C:DriverSeatInteractionSphere'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.73"
+      },
+      "DriverSeatInteractableComponent": {
+        "ObjectName": "MTInteractableComponent'Default__Atlas_8x4_Dump_C:DriverSeatInteractable'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.23"
+      },
+      "PassengerSeatInteractionSphereComponent": {
+        "ObjectName": "SphereComponent'Default__Atlas_8x4_Dump_C:PassengerSeatInteractionSphere'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.74"
+      },
+      "PassengerSeatInteractableComponent": {
+        "ObjectName": "MTInteractableComponent'Default__Atlas_8x4_Dump_C:PassengerSeatInteractable'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.24"
+      },
+      "NavModifierComponent": {
+        "ObjectName": "MTVehicleNavModifierComponent'Default__Atlas_8x4_Dump_C:NavModifierComponent'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.36"
+      },
+      "Dashboard": {
+        "ObjectName": "MTDashboard'Default__Atlas_8x4_Dump_C:Dashboard'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.19"
+      },
+      "CameraSpringArm": {
+        "ObjectName": "MTSpringArmComponent'Default__Atlas_8x4_Dump_C:CameraSpringArm'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.30"
+      },
+      "TrailCamera": {
+        "ObjectName": "CameraComponent'Default__Atlas_8x4_Dump_C:TrailCamera'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.7"
+      },
+      "CockpitCamera": {
+        "ObjectName": "CameraComponent'Default__Atlas_8x4_Dump_C:CockpitCamera'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.6"
+      },
+      "LOD3UnregisterComponents": [
+        {
+          "ObjectName": "StaticMeshComponent'Default__Atlas_8x4_Dump_C:SteeringWheel'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.77"
+        },
+        {
+          "ObjectName": "SphereComponent'Default__Atlas_8x4_Dump_C:DriverSeatInteractionSphere'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.73"
+        },
+        {
+          "ObjectName": "MTInteractableComponent'Default__Atlas_8x4_Dump_C:DriverSeatInteractable'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.23"
+        },
+        {
+          "ObjectName": "SphereComponent'Default__Atlas_8x4_Dump_C:PassengerSeatInteractionSphere'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.74"
+        },
+        {
+          "ObjectName": "MTInteractableComponent'Default__Atlas_8x4_Dump_C:PassengerSeatInteractable'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.24"
+        },
+        {
+          "ObjectName": "MTSpringArmComponent'Default__Atlas_8x4_Dump_C:CameraSpringArm'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.30"
+        },
+        {
+          "ObjectName": "CameraComponent'Default__Atlas_8x4_Dump_C:TrailCamera'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.7"
+        },
+        {
+          "ObjectName": "CameraComponent'Default__Atlas_8x4_Dump_C:CockpitCamera'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.6"
+        },
+        {
+          "ObjectName": "MTEngineComponent'Default__Atlas_8x4_Dump_C:Engine'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.22"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MTVehicleNavModifierComponent'Default__Atlas_8x4_Dump_C:NavModifierComponent'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.36"
+        },
+        {
+          "ObjectName": "MTDashboard'Default__Atlas_8x4_Dump_C:Dashboard'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.19"
+        }
+      ],
+      "LOD4UnregisterComponents": [
+        {
+          "ObjectName": "MTEngineComponent'Default__Atlas_8x4_Dump_C:Engine'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.22"
+        },
+        {
+          "ObjectName": "MTVehicleNavModifierComponent'Default__Atlas_8x4_Dump_C:NavModifierComponent'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.36"
+        }
+      ],
+      "AIDriverSetting": {
+        "LateralG": 0.25,
+        "BrakingG": 0.1
+      },
+      "DefaultDrivingMode": "EMTDriveMode::Comfort",
+      "BrakeTorqueMultiplier": 1.5,
+      "KeyboardSteerSpeed": 1.0,
+      "KeyboardSteerReturnSpeed": 1.0,
+      "AntiRollBars": [
+        {
+          "Wheel0Name": "Wheel0",
+          "Wheel1Name": "Wheel1",
+          "SpringK": 120000.0,
+          "SpringD": 4000.0,
+          "Wheel0": null,
+          "Wheel1": null
+        },
+        {
+          "Wheel0Name": "Wheel2",
+          "Wheel1Name": "Wheel3",
+          "SpringK": 10000.0,
+          "SpringD": 500.0,
+          "Wheel0": null,
+          "Wheel1": null
+        },
+        {
+          "Wheel0Name": "Wheel4",
+          "Wheel1Name": "Wheel5",
+          "SpringK": 3000.0,
+          "SpringD": 500.0,
+          "Wheel0": null,
+          "Wheel1": null
+        },
+        {
+          "Wheel0Name": "Wheel6",
+          "Wheel1Name": "Wheel7",
+          "SpringK": 3000.0,
+          "SpringD": 500.0,
+          "Wheel0": null,
+          "Wheel1": null
+        }
+      ],
+      "FuelTankCapacityInLiter": 600.0,
+      "AirDragCoeff": 0.5,
+      "HornSound": {
+        "ObjectName": "SoundWave'TruckAirHorn_01'",
+        "ObjectPath": "MotorTown/Content/Sounds/Vehicle/Horn/TruckAirHorn_01.0"
+      },
+      "HornFadeInSeconds": 0.2,
+      "HornFadeOutSeconds": 0.5,
+      "AirBrakeSound": {
+        "ObjectName": "SoundCue'SC_AirBrake'",
+        "ObjectPath": "MotorTown/Content/Sounds/Vehicle/Brake/SC_AirBrake.0"
+      },
+      "ParkingBrakeSound": {
+        "ObjectName": "SoundCue'SC_AirBrake_Parking'",
+        "ObjectPath": "MotorTown/Content/Sounds/Vehicle/Brake/SC_AirBrake_Parking.0"
+      },
+      "ParkingBrakeReleaseSound": {
+        "ObjectName": "SoundCue'SC_AirBrake_ParkingRelease'",
+        "ObjectPath": "MotorTown/Content/Sounds/Vehicle/Brake/SC_AirBrake_ParkingRelease.0"
+      },
+      "AIControllerClass": {
+        "ObjectName": "BlueprintGeneratedClass'AC_Roamer_C'",
+        "ObjectPath": "MotorTown/Content/AI/Vehicle/AC_Roamer.1"
+      },
+      "bReplicateMovement": false,
+      "MinNetUpdateFrequency": 20.0,
+      "RootComponent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      }
+    }
+  },
+  {
+    "Type": "BlinkerLight_01_C",
+    "Name": "BlinkerLight_01_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.BlinkerLight_01_C'",
+    "Template": {
+      "ObjectName": "BlinkerLight_01_C'Default__BlinkerLight_01_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BlinkerLightType": "EMTBlinkerLightType::RightBlinker",
+      "RelativeLocation": {
+        "X": 504.74725,
+        "Y": 89.12368,
+        "Z": 93.902405
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -90.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 504.74725,
+      "Y": 89.12368,
+      "Z": 93.902405
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "BlinkerLight_01_C",
+    "Name": "BlinkerLight_02_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.BlinkerLight_01_C'",
+    "Template": {
+      "ObjectName": "BlinkerLight_01_C'Default__BlinkerLight_01_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 504.74725,
+        "Y": -89.12368,
+        "Z": 93.902405
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -90.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 504.74725,
+      "Y": -89.12368,
+      "Z": 93.902405
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "BlinkerLight_01_C",
+    "Name": "BlinkerLight_03_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.BlinkerLight_01_C'",
+    "Template": {
+      "ObjectName": "BlinkerLight_01_C'Default__BlinkerLight_01_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 8E-06,
+        "Y": 33.104027,
+        "Z": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -90.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 8E-06,
+      "Y": 33.104027,
+      "Z": 0.0
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "BlinkerLight_01_C",
+    "Name": "BlinkerLight_04_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.BlinkerLight_01_C'",
+    "Template": {
+      "ObjectName": "BlinkerLight_01_C'Default__BlinkerLight_01_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BlinkerLightType": "EMTBlinkerLightType::RightBlinker",
+      "RelativeLocation": {
+        "X": 8E-06,
+        "Y": -33.104027,
+        "Z": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -90.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 8E-06,
+      "Y": -33.104027,
+      "Z": 0.0
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'MTVehicleBaseBP_C'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Atlas_8x4_Dump_C:SimpleConstructionScript_0'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.72"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'Atlas_8x4_Dump_C:InheritableComponentHandler'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'MTVehicleBaseBP_C'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "8x4_Frame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'StaticMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Differential1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTDifferentialComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Differential2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTDifferentialComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Wheel6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MHWheelComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Wheel7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MHWheelComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DumpDoor",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTVehicleDoorComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CargoSpace",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTVehicleCargoSpaceComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Dump",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTVehicleDoorComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PassengerSeat2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTSeatComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "PassengerSeat1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTSeatComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DriverSeat",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTSeatComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Wheel4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MHWheelComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Wheel5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MHWheelComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BlinkerLight_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlinkerLight_01_C'",
+          "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BlinkerLight_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlinkerLight_01_C'",
+          "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReverseLight_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'ReverseLight_01_C'",
+          "ObjectPath": "MotorTown/Content/Cars/Parts/Light/ReverseLight_01.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BlinkerLight_04",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlinkerLight_01_C'",
+          "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TaliLight_02",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'TaliLight_01_C'",
+          "ObjectPath": "MotorTown/Content/Cars/Parts/Light/TaliLight_01.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BlinkerLight_03",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BlinkerLight_01_C'",
+          "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.1"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "ReverseLight_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'ReverseLight_01_C'",
+          "ObjectPath": "MotorTown/Content/Cars/Parts/Light/ReverseLight_01.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "TaliLight_01",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'TaliLight_01_C'",
+          "ObjectPath": "MotorTown/Content/Cars/Parts/Light/TaliLight_01.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "FrontDomeLightSlot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTVehiclePartSlotComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeadLight_Left",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTVehicleHeadLight'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HeadLight_Right",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTVehicleHeadLight'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "MTVehicleTruck",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTVehicleTruckComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "RightSideMirror",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTMirrorComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LeftSideMirror",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MTMirrorComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Transmission",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'MHTransmissionComponent'",
+          "ObjectPath": "/Script/MotorTown"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Atlas_8x4_Dump_C'Default__Atlas_8x4_Dump_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "CockpitCamera",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Template": {
+      "ObjectName": "CameraComponent'Default__MTVehicleBaseBP_C:CockpitCamera'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FieldOfView": 103.0,
+      "PostProcessSettings": {
+        "bOverride_AutoExposureMeterMask": true,
+        "AutoExposureMeterMask": {
+          "ObjectName": "Texture2D'ExposureMask_SmallCenter'",
+          "ObjectPath": "MotorTown/Content/Cars/Textures/ExposureMask_SmallCenter.0"
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "RelativeLocation": {
+        "X": 339.90045,
+        "Y": -64.14578,
+        "Z": 248.69116
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "TrailCamera",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Template": {
+      "ObjectName": "CameraComponent'Default__MTVehicleBaseBP_C:TrailCamera'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FieldOfView": 103.0,
+      "AttachParent": {
+        "ObjectName": "MTSpringArmComponent'Default__Atlas_8x4_Dump_C:CameraSpringArm'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.30"
+      },
+      "RelativeRotation": {
+        "Pitch": 5.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "FrontDomeLight_2m_C",
+    "Name": "FrontDomeLightSlot_GEN_VARIABLE_FrontDomeLight_2m_C_CAT",
+    "Outer": "FrontDomeLightSlot_GEN_VARIABLE",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/InteriorLight/FrontDomeLight_2m.FrontDomeLight_2m_C'",
+    "Template": {
+      "ObjectName": "FrontDomeLight_2m_C'Default__FrontDomeLight_2m_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/InteriorLight/FrontDomeLight_2m.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MHTransmissionComponent",
+    "Name": "Transmission_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHTransmissionComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TransmissionProperty": {
+        "Gears": [
+          {
+            "GearRatio": -80.0,
+            "Inertia": 100.0,
+            "Name": "R"
+          },
+          {
+            "GearRatio": 0.0,
+            "Inertia": 100.0,
+            "Name": "N"
+          },
+          {
+            "GearRatio": 80.0,
+            "Inertia": 100.0,
+            "Name": "1"
+          },
+          {
+            "GearRatio": 50.0,
+            "Inertia": 100.0,
+            "Name": "2"
+          },
+          {
+            "GearRatio": 30.0,
+            "Inertia": 100.0,
+            "Name": "3"
+          },
+          {
+            "GearRatio": 20.0,
+            "Inertia": 100.0,
+            "Name": "4"
+          },
+          {
+            "GearRatio": 15.0,
+            "Inertia": 100.0,
+            "Name": "5"
+          },
+          {
+            "GearRatio": 10.0,
+            "Inertia": 100.0,
+            "Name": "6"
+          },
+          {
+            "GearRatio": 7.0,
+            "Inertia": 100.0,
+            "Name": "7"
+          }
+        ],
+        "DefaultGearIndex": 1,
+        "ShiftTimeSeconds": 0.5,
+        "TorqueConvertorStallRatioPower": 3.0,
+        "TorqueConvertorTorqueRate": 30.0
+      }
+    }
+  },
+  {
+    "Type": "MHWheelComponent",
+    "Name": "Wheel4_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHWheelComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WheelSlotIndex": 4,
+      "WheelFlags": [
+        "EMTWheelFlags::DualRearWheel"
+      ],
+      "DifferentialComponentName": "Differential1",
+      "TirePhysicsData": {
+        "ObjectName": "MTTirePhysicsDataAsset'HeavyDutyRearTire'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Tire/HeavyDutyRearTire.0"
+      },
+      "Inertia": 800000.0,
+      "SpringStroke": 20.0,
+      "SpringLength": 2.0,
+      "SpringK": 700000.0,
+      "SpringBoundDamping": 800.0,
+      "SpringReboundDamping": 25000.0,
+      "BrakeRatio": 0.07,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SRT_RRD'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Wheels/SRT_RRD.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "RelativeLocation": {
+        "X": -180.47487,
+        "Y": 117.0,
+        "Z": 53.55696
+      },
+      "RelativeScale3D": {
+        "X": 1.07,
+        "Y": 1.07,
+        "Z": 1.07
+      }
+    }
+  },
+  {
+    "Type": "MHWheelComponent",
+    "Name": "Wheel5_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHWheelComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WheelSlotIndex": 5,
+      "WheelFlags": [
+        "EMTWheelFlags::DualRearWheel"
+      ],
+      "DifferentialComponentName": "Differential1",
+      "LinkGearRatio": -1.0,
+      "TirePhysicsData": {
+        "ObjectName": "MTTirePhysicsDataAsset'HeavyDutyRearTire'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Tire/HeavyDutyRearTire.0"
+      },
+      "Inertia": 800000.0,
+      "SpringStroke": 20.0,
+      "SpringLength": 2.0,
+      "SpringK": 700000.0,
+      "SpringBoundDamping": 800.0,
+      "SpringReboundDamping": 25000.0,
+      "BrakeRatio": 0.07,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SRT_RLD'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Wheels/SRT_RLD.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "RelativeLocation": {
+        "X": -180.47487,
+        "Y": -117.0,
+        "Z": 53.55696
+      },
+      "RelativeScale3D": {
+        "X": 1.07,
+        "Y": 1.07,
+        "Z": 1.07
+      }
+    }
+  },
+  {
+    "Type": "MHWheelComponent",
+    "Name": "Wheel6_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHWheelComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WheelSlotIndex": 6,
+      "WheelFlags": [
+        "EMTWheelFlags::DualRearWheel"
+      ],
+      "DifferentialComponentName": "Differential2",
+      "TirePhysicsData": {
+        "ObjectName": "MTTirePhysicsDataAsset'HeavyDutyRearTire'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Tire/HeavyDutyRearTire.0"
+      },
+      "Inertia": 800000.0,
+      "SpringStroke": 20.0,
+      "SpringLength": 2.0,
+      "SpringK": 700000.0,
+      "SpringBoundDamping": 800.0,
+      "SpringReboundDamping": 25000.0,
+      "TagAxleSteerPivotX": -142.23012,
+      "BrakeRatio": 0.07,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SRT_RRD'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Wheels/SRT_RRD.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "RelativeLocation": {
+        "X": -309.64386,
+        "Y": 117.0,
+        "Z": 53.55696
+      },
+      "RelativeScale3D": {
+        "X": 1.07,
+        "Y": 1.07,
+        "Z": 1.07
+      }
+    }
+  },
+  {
+    "Type": "MHWheelComponent",
+    "Name": "Wheel7_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHWheelComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WheelSlotIndex": 7,
+      "WheelFlags": [
+        "EMTWheelFlags::DualRearWheel"
+      ],
+      "DifferentialComponentName": "Differential2",
+      "LinkGearRatio": -1.0,
+      "TirePhysicsData": {
+        "ObjectName": "MTTirePhysicsDataAsset'HeavyDutyRearTire'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Tire/HeavyDutyRearTire.0"
+      },
+      "Inertia": 800000.0,
+      "SpringStroke": 20.0,
+      "SpringLength": 2.0,
+      "SpringK": 700000.0,
+      "SpringBoundDamping": 800.0,
+      "SpringReboundDamping": 25000.0,
+      "TagAxleSteerPivotX": -142.23012,
+      "BrakeRatio": 0.07,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SRT_RLD'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Wheels/SRT_RLD.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "RelativeLocation": {
+        "X": -309.64386,
+        "Y": -117.0,
+        "Z": 53.55696
+      },
+      "RelativeScale3D": {
+        "X": 1.07,
+        "Y": 1.07,
+        "Z": 1.07
+      }
+    }
+  },
+  {
+    "Type": "MHWheelComponent",
+    "Name": "Wheel0",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHWheelComponent'",
+    "Template": {
+      "ObjectName": "MHWheelComponent'Default__MTVehicleBaseBP_C:Wheel0'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.7"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TirePhysicsData": {
+        "ObjectName": "MTTirePhysicsDataAsset'HeavyDutyFrontTire'",
+        "ObjectPath": "/Game/Cars/Parts/Tire/HeavyDutyFrontTire"
+      },
+      "Inertia": 150000.0,
+      "SpringStroke": 20.0,
+      "SpringLength": 7.0,
+      "SpringK": 320000.0,
+      "SpringBoundDamping": 500.0,
+      "SpringReboundDamping": 20000.0,
+      "CasterDegree": 5.0,
+      "KingpinOffset": 20.0,
+      "KingpinAngle": 5.0,
+      "BrakeRatio": 0.22,
+      "bHandBrake": false,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SRT_FR'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Wheels/SRT_FR.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "AttachParent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "RelativeLocation": {
+        "X": 316.24844,
+        "Y": 115.0,
+        "Z": 53.55696
+      },
+      "RelativeScale3D": {
+        "X": 1.07,
+        "Y": 1.07,
+        "Z": 1.07
+      }
+    }
+  },
+  {
+    "Type": "MHWheelComponent",
+    "Name": "Wheel1",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHWheelComponent'",
+    "Template": {
+      "ObjectName": "MHWheelComponent'Default__MTVehicleBaseBP_C:Wheel1'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TirePhysicsData": {
+        "ObjectName": "MTTirePhysicsDataAsset'HeavyDutyFrontTire'",
+        "ObjectPath": "/Game/Cars/Parts/Tire/HeavyDutyFrontTire"
+      },
+      "Inertia": 150000.0,
+      "SpringStroke": 20.0,
+      "SpringLength": 7.0,
+      "SpringK": 320000.0,
+      "SpringBoundDamping": 500.0,
+      "SpringReboundDamping": 20000.0,
+      "CasterDegree": 5.0,
+      "KingpinOffset": 20.0,
+      "KingpinAngle": 5.0,
+      "BrakeRatio": 0.22,
+      "bHandBrake": false,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SRT_FL'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Wheels/SRT_FL.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "AttachParent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "RelativeLocation": {
+        "X": 316.24844,
+        "Y": -115.0,
+        "Z": 53.55696
+      },
+      "RelativeScale3D": {
+        "X": 1.07,
+        "Y": 1.07,
+        "Z": 1.07
+      }
+    }
+  },
+  {
+    "Type": "MHWheelComponent",
+    "Name": "Wheel2",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHWheelComponent'",
+    "Template": {
+      "ObjectName": "MHWheelComponent'Default__MTVehicleBaseBP_C:Wheel2'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.9"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TirePhysicsData": {
+        "ObjectName": "MTTirePhysicsDataAsset'HeavyDutyFrontTireA'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Tire/Deprecated/HeavyDutyFrontTireA.0"
+      },
+      "Inertia": 150000.0,
+      "SpringStroke": 20.0,
+      "SpringLength": 7.0,
+      "SpringK": 320000.0,
+      "SpringBoundDamping": 500.0,
+      "SpringReboundDamping": 20000.0,
+      "bTagAxleSteer": true,
+      "TagAxleSteerPivotX": -213.0,
+      "MaxSteeringAngleDegree": 50.0,
+      "MaxSteeringAngleDegreePerSeconds": 10000.0,
+      "CasterDegree": 3.0,
+      "BrakeRatio": 0.22,
+      "bHandBrake": false,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SRT_RRD'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Wheels/SRT_RRD.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "AttachParent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "RelativeLocation": {
+        "X": 153.34546,
+        "Y": 115.0,
+        "Z": 53.55696
+      },
+      "RelativeScale3D": {
+        "X": 1.07,
+        "Y": 1.07,
+        "Z": 1.07
+      }
+    }
+  },
+  {
+    "Type": "MHWheelComponent",
+    "Name": "Wheel3",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MHWheelComponent'",
+    "Template": {
+      "ObjectName": "MHWheelComponent'Default__MTVehicleBaseBP_C:Wheel3'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.10"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TirePhysicsData": {
+        "ObjectName": "MTTirePhysicsDataAsset'HeavyDutyFrontTireA'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Tire/Deprecated/HeavyDutyFrontTireA.0"
+      },
+      "Inertia": 150000.0,
+      "SpringStroke": 20.0,
+      "SpringLength": 7.0,
+      "SpringK": 320000.0,
+      "SpringBoundDamping": 500.0,
+      "SpringReboundDamping": 20000.0,
+      "bTagAxleSteer": true,
+      "TagAxleSteerPivotX": -213.0,
+      "MaxSteeringAngleDegree": 50.0,
+      "MaxSteeringAngleDegreePerSeconds": 10000.0,
+      "CasterDegree": 3.0,
+      "BrakeRatio": 0.22,
+      "bHandBrake": false,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SRT_RLD'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Wheels/SRT_RLD.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "AttachParent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "RelativeLocation": {
+        "X": 153.34546,
+        "Y": -115.0,
+        "Z": 53.55696
+      },
+      "RelativeScale3D": {
+        "X": 1.07,
+        "Y": 1.07,
+        "Z": 1.07
+      }
+    }
+  },
+  {
+    "Type": "MTDashboard",
+    "Name": "Dashboard",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTDashboard'",
+    "Template": {
+      "ObjectName": "MTDashboard'Default__MTVehicleBaseBP_C:Dashboard'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.11"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DashboardAttachSocketName": "None",
+      "DashboardMesh": {
+        "ObjectName": "StaticMesh'Dashboard'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Dashboard.2"
+      },
+      "DashboardMeshComponentName": "Mesh",
+      "GaugeConfigs": [
+        {
+          "Key": "EMTDashboardGaugeType::RPM",
+          "Value": {
+            "WidgetClass": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'W_Tachometer_C'",
+              "ObjectPath": "MotorTown/Content/UI/InGame/Dashboard/Gauges/W_Tachometer.10"
+            },
+            "WidgetDrawSize": {
+              "X": 512.0,
+              "Y": 512.0
+            },
+            "NiddleMesh": {
+              "ObjectName": "StaticMesh'Niddle'",
+              "ObjectPath": "MotorTown/Content/Cars/Models/Muscle_01/Niddle.2"
+            },
+            "NiddleMeshScale": {
+              "X": 0.7,
+              "Y": 0.7,
+              "Z": 1.0
+            },
+            "MinValue": 0.0,
+            "MaxValue": 35.0,
+            "ValueScale": 100.0,
+            "TextStep": 5.0,
+            "LineStep": 2.5,
+            "NiddleStartDegree": 140.0,
+            "NiddleEndDegree": 400.0,
+            "Text1ValueType": "EMTDashboardGaugeType::None",
+            "Text1UpdatePeriodSeconds": 0.2
+          }
+        },
+        {
+          "Key": "EMTDashboardGaugeType::Speed",
+          "Value": {
+            "WidgetClass": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'W_MuscleGauge_C'",
+              "ObjectPath": "MotorTown/Content/UI/InGame/Dashboard/Gauges/W_MuscleGauge.10"
+            },
+            "WidgetDrawSize": {
+              "X": 512.0,
+              "Y": 512.0
+            },
+            "NiddleMesh": {
+              "ObjectName": "StaticMesh'Niddle'",
+              "ObjectPath": "MotorTown/Content/Cars/Models/Muscle_01/Niddle.2"
+            },
+            "NiddleMeshScale": {
+              "X": 0.8,
+              "Y": 0.8,
+              "Z": 1.0
+            },
+            "MinValue": 0.0,
+            "MaxValue": 140.0,
+            "ValueScale": 1.0,
+            "TextStep": 20.0,
+            "LineStep": 10.0,
+            "NiddleStartDegree": 140.0,
+            "NiddleEndDegree": 400.0,
+            "Text1ValueType": "EMTDashboardGaugeType::None",
+            "Text1UpdatePeriodSeconds": 0.2
+          }
+        },
+        {
+          "Key": "EMTDashboardGaugeType::Fuel",
+          "Value": {
+            "WidgetClass": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'W_FuelGauge_C'",
+              "ObjectPath": "MotorTown/Content/UI/InGame/Dashboard/Gauges/W_FuelGauge.10"
+            },
+            "WidgetDrawSize": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "NiddleMesh": {
+              "ObjectName": "StaticMesh'SmallNiddle'",
+              "ObjectPath": "MotorTown/Content/Cars/Models/Muscle_01/SmallNiddle.2"
+            },
+            "NiddleMeshScale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "ValueScale": 1.0,
+            "TextStep": 1.0,
+            "LineStep": 0.125,
+            "NiddleStartDegree": 150.0,
+            "NiddleEndDegree": 390.0,
+            "Text1ValueType": "EMTDashboardGaugeType::None",
+            "Text1UpdatePeriodSeconds": 0.2
+          }
+        },
+        {
+          "Key": "EMTDashboardGaugeType::Temp",
+          "Value": {
+            "WidgetClass": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'W_TempGauge_C'",
+              "ObjectPath": "MotorTown/Content/UI/InGame/Dashboard/Gauges/W_TempGauge.10"
+            },
+            "WidgetDrawSize": {
+              "X": 128.0,
+              "Y": 128.0
+            },
+            "NiddleMesh": {
+              "ObjectName": "StaticMesh'SmallNiddle'",
+              "ObjectPath": "MotorTown/Content/Cars/Models/Muscle_01/SmallNiddle.2"
+            },
+            "NiddleMeshScale": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "MinValue": 40.0,
+            "MaxValue": 120.0,
+            "ValueScale": 1.0,
+            "TextStep": 80.0,
+            "LineStep": 20.0,
+            "NiddleStartDegree": 210.0,
+            "NiddleEndDegree": 330.0,
+            "Text1ValueType": "EMTDashboardGaugeType::None",
+            "Text1UpdatePeriodSeconds": 0.2
+          }
+        }
+      ],
+      "MFDParams": [
+        {
+          "MFDType": "EMTDashboardMFDType::MDF_01",
+          "MFDWidgetClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'W_MFD_01_C'",
+            "ObjectPath": "MotorTown/Content/UI/InGame/Dashboard/MFD/W_MFD_01.42"
+          },
+          "MFDTextureSize": {
+            "X": 768.0,
+            "Y": 128.0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MTDifferentialComponent",
+    "Name": "Differential1_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTDifferentialComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LSDSlotName": {
+        "TableId": "/Game/DataAsset/StringTables/VehicleParts.VehicleParts",
+        "Key": "RearLSD",
+        "SourceString": "Rear LSD",
+        "LocalizedString": "Rear LSD"
+      },
+      "TransmissionComponentName": "Transmission",
+      "Inertia": 100.0,
+      "DataAsset": {
+        "ObjectName": "MTLSDDataAsset'OpenDifferential'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/LSD/OpenDifferential.0"
+      }
+    }
+  },
+  {
+    "Type": "MTDifferentialComponent",
+    "Name": "Differential2_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTDifferentialComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LSDSlotName": {
+        "TableId": "/Game/DataAsset/StringTables/VehicleParts.VehicleParts",
+        "Key": "RearLSD",
+        "SourceString": "Rear LSD",
+        "LocalizedString": "Rear LSD"
+      },
+      "LSDSlotIndex": 1,
+      "TransmissionComponentName": "Transmission",
+      "Inertia": 100.0,
+      "DataAsset": {
+        "ObjectName": "MTLSDDataAsset'OpenDifferential'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/LSD/OpenDifferential.0"
+      }
+    }
+  },
+  {
+    "Type": "MTEngineComponent",
+    "Name": "Engine",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTEngineComponent'",
+    "Template": {
+      "ObjectName": "MTEngineComponent'Default__MTVehicleBaseBP_C:Engine'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.12"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EngineData": {
+        "ObjectName": "MHEngineDataAsset'MediumDuty_190HP'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Engine/MediumDuty_190HP.0"
+      },
+      "AttachParent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "RelativeLocation": {
+        "X": 274.4453,
+        "Y": 0.002105713,
+        "Z": 106.5885
+      }
+    }
+  },
+  {
+    "Type": "MTInteractableComponent",
+    "Name": "DriverSeatInteractable",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTInteractableComponent'",
+    "Template": {
+      "ObjectName": "MTInteractableComponent'Default__MTVehicleBaseBP_C:DriverSeatInteractable'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.13"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__Atlas_8x4_Dump_C:DriverSeatInteractionSphere'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.73"
+      }
+    }
+  },
+  {
+    "Type": "MTInteractableComponent",
+    "Name": "PassengerSeatInteractable",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTInteractableComponent'",
+    "Template": {
+      "ObjectName": "MTInteractableComponent'Default__MTVehicleBaseBP_C:PassengerSeatInteractable'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.14"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SphereComponent'Default__Atlas_8x4_Dump_C:PassengerSeatInteractionSphere'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.74"
+      }
+    }
+  },
+  {
+    "Type": "MTMirrorComponent",
+    "Name": "LeftSideMirror_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTMirrorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SideMirrorSocketName": "SideMirror_L",
+      "SideMirrorSurfaceSocketName": "SideMirror_L_Surface",
+      "MirrorSize": 40.0,
+      "MirrorCurvature": 4.0,
+      "SideMirrorRotation": {
+        "Pitch": 0.0,
+        "Yaw": 8.0,
+        "Roll": 0.0
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SideMirror_L'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/SideMirror_L.2"
+      }
+    }
+  },
+  {
+    "Type": "MTMirrorComponent",
+    "Name": "RightSideMirror_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTMirrorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SideMirrorSocketName": "SideMirror_R",
+      "SideMirrorSurfaceSocketName": "SideMirror_R_Surface",
+      "MirrorType": "EMTMirroType::SideRight",
+      "MirrorSize": 40.0,
+      "MirrorCurvature": 6.0,
+      "SideMirrorRotation": {
+        "Pitch": 0.0,
+        "Yaw": -5.0,
+        "Roll": 0.0
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SideMirror_R'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/SideMirror_R.2"
+      }
+    }
+  },
+  {
+    "Type": "MTSeatComponent",
+    "Name": "DriverSeat_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTSeatComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SeatType": "EMTSeatType::Driver",
+      "RelativeLocation": {
+        "X": 361.04135,
+        "Y": -64.14578,
+        "Z": 162.57184
+      }
+    }
+  },
+  {
+    "Type": "MTSeatComponent",
+    "Name": "PassengerSeat1_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTSeatComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 361.04135,
+        "Y": 73.31514,
+        "Z": 162.57184
+      }
+    }
+  },
+  {
+    "Type": "MTSeatComponent",
+    "Name": "PassengerSeat2_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTSeatComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 361.04135,
+        "Y": 27.31028,
+        "Z": 162.57184
+      }
+    }
+  },
+  {
+    "Type": "MTSpringArmComponent",
+    "Name": "CameraSpringArm",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTSpringArmComponent'",
+    "Template": {
+      "ObjectName": "MTSpringArmComponent'Default__MTVehicleBaseBP_C:CameraSpringArm'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.15"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TargetArmLength": 1150.0,
+      "TargetOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "AttachParent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "RelativeLocation": {
+        "X": 60.0,
+        "Y": 0.0,
+        "Z": 120.0
+      },
+      "RelativeRotation": {
+        "Pitch": -15.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "MTVehicleCargoSpaceComponent",
+    "Name": "CargoSpace_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehicleCargoSpaceComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CargoSpaceType": "EMTCargoSpaceType::Dump",
+      "bFixCargo": true,
+      "DumpVolume": 17.0,
+      "DumpCargoSurfaceSlopeYAngleDegree": 15.0,
+      "BoxExtent": {
+        "X": 50.0,
+        "Y": 50.0,
+        "Z": 50.0
+      },
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "VehicleRay",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        },
+        "MassInKgOverride": 1.0,
+        "COMNudge": {
+          "X": 7.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bOverrideMass": true
+      },
+      "RelativeLocation": {
+        "X": -130.48932,
+        "Y": -6.00146E-07,
+        "Z": 226.35846
+      },
+      "RelativeScale3D": {
+        "X": 5.9211183,
+        "Y": 2.2544641,
+        "Z": 1.2800008
+      }
+    }
+  },
+  {
+    "Type": "MTVehicleDoorComponent",
+    "Name": "Dump_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehicleDoorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DoorType": "EMTVehicleDoorType::Dump",
+      "DoorMaxAngleDegree": -60.0,
+      "DoorAngleSpeed": 10.0,
+      "RotateAxis": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      "DoorClosedSound": {
+        "ObjectName": "SoundWave'ClosedImpact'",
+        "ObjectPath": "MotorTown/Content/Sounds/Vehicle/Door/Dump/ClosedImpact.0"
+      },
+      "SyncedDoorNames": [
+        "DumpDoor"
+      ],
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'8x4_Dump_Bed'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/8x4_Dump_Bed.2"
+      },
+      "BodyInstance": {
+        "MassInKgOverride": 5500.0,
+        "bOverrideMass": true
+      }
+    }
+  },
+  {
+    "Type": "MTVehicleDoorComponent",
+    "Name": "DumpDoor_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehicleDoorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DoorType": "EMTVehicleDoorType::DumpDoor",
+      "DoorMaxAngleDegree": 60.0,
+      "DoorAngleSpeed": 10.0,
+      "RotateAxis": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -1.0
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'8x4_Dump_Bed_Door'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/8x4_Dump_Bed_Door.2"
+      },
+      "BodyInstance": {
+        "MassInKgOverride": 300.0,
+        "bOverrideMass": true
+      }
+    }
+  },
+  {
+    "Type": "MTVehicleHeadLight",
+    "Name": "HeadLight_Left_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehicleHeadLight'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Unitless",
+      "RelativeLocation": {
+        "X": 502.48914,
+        "Y": -90.22006,
+        "Z": 90.3293
+      },
+      "RelativeRotation": {
+        "Pitch": -22.584805,
+        "Yaw": 0.000871,
+        "Roll": -0.02437
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -22.584805,
+      "Yaw": 0.000871,
+      "Roll": -0.02437
+    },
+    "RelativeLocation": {
+      "X": 502.48914,
+      "Y": -90.22006,
+      "Z": 90.3293
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "MTVehicleHeadLight",
+    "Name": "HeadLight_Right_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehicleHeadLight'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "IntensityUnits": "ELightUnits::Unitless",
+      "RelativeLocation": {
+        "X": 502.48914,
+        "Y": 90.22006,
+        "Z": 90.3293
+      },
+      "RelativeRotation": {
+        "Pitch": -18.426088,
+        "Yaw": 1.025745,
+        "Roll": -0.377225
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -18.426088,
+      "Yaw": 1.025745,
+      "Roll": -0.377225
+    },
+    "RelativeLocation": {
+      "X": 502.48914,
+      "Y": 90.22006,
+      "Z": 90.3293
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "MTVehicleNavModifierComponent",
+    "Name": "NavModifierComponent",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehicleNavModifierComponent'",
+    "Template": {
+      "ObjectName": "MTVehicleNavModifierComponent'Default__MTVehicleBaseBP_C:NavModifierComponent'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.17"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MTVehiclePartSlotComponent",
+    "Name": "FrontDomeLightSlot_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehiclePartSlotComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'FrontDomeLight_2m_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/InteriorLight/FrontDomeLight_2m.0"
+      },
+      "ChildActorTemplate": {
+        "ObjectName": "FrontDomeLight_2m_C'Atlas_8x4_Dump_C:FrontDomeLightSlot_GEN_VARIABLE.FrontDomeLightSlot_GEN_VARIABLE_FrontDomeLight_2m_C_CAT'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.8"
+      },
+      "RelativeLocation": {
+        "X": 364.5399,
+        "Y": -0.0004283438,
+        "Z": 320.10593
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": 1.4E-05,
+        "Roll": 3E-06
+      }
+    }
+  },
+  {
+    "Type": "MTVehicleRootComponent",
+    "Name": "Body",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehicleRootComponent'",
+    "Template": {
+      "ObjectName": "MTVehicleRootComponent'Default__MTVehicleBaseBP_C:Body'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.18"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MTVehicleTruckComponent",
+    "Name": "MTVehicleTruck_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'MTVehicleTruckComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ReverseLight_01_C",
+    "Name": "ReverseLight_01_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/Light/ReverseLight_01.ReverseLight_01_C'",
+    "Template": {
+      "ObjectName": "ReverseLight_01_C'Default__ReverseLight_01_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/Light/ReverseLight_01.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4E-06,
+        "Y": 18.665344,
+        "Z": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -90.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 4E-06,
+      "Y": 18.665344,
+      "Z": 0.0
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "ReverseLight_01_C",
+    "Name": "ReverseLight_02_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/Light/ReverseLight_01.ReverseLight_01_C'",
+    "Template": {
+      "ObjectName": "ReverseLight_01_C'Default__ReverseLight_01_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/Light/ReverseLight_01.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": 4E-06,
+        "Y": -18.665344,
+        "Z": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": -90.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": 4E-06,
+      "Y": -18.665344,
+      "Z": 0.0
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Atlas_8x4_Dump_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.42"
+      },
+      "VariableGuid": "975D350D-4C488D91-2B0B3A8E-02CEDCA6",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTSeatComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTSeatComponent'Atlas_8x4_Dump_C:DriverSeat_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.27"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9113BA6F-4250145F-345AD6A6-14175BF3",
+      "InternalVariableName": "DriverSeat"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTMirrorComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTMirrorComponent'Atlas_8x4_Dump_C:RightSideMirror_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.26"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FAEF505A-48ADB19B-E13042A8-3039259E",
+      "InternalVariableName": "RightSideMirror"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTVehicleHeadLight'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTVehicleHeadLight'Atlas_8x4_Dump_C:HeadLight_Right_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.35"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "3DF33FFD-43A9E016-2E0BEA99-E065B647",
+      "InternalVariableName": "HeadLight_Right"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_12",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTVehicleTruckComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTVehicleTruckComponent'Atlas_8x4_Dump_C:MTVehicleTruck_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.39"
+      },
+      "VariableGuid": "990C7A3F-44B163DA-1FEEF1B9-D2073746",
+      "InternalVariableName": "MTVehicleTruck"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MHWheelComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MHWheelComponent'Atlas_8x4_Dump_C:Wheel5_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.12"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "F2232A32-48F0DEF4-EEF6F993-CFE5C07B",
+      "InternalVariableName": "Wheel5"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_14",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTVehicleHeadLight'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTVehicleHeadLight'Atlas_8x4_Dump_C:HeadLight_Left_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.34"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "293B1DF6-42769E10-2EC45382-575B6BB6",
+      "InternalVariableName": "HeadLight_Left"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_15",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTVehiclePartSlotComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTVehiclePartSlotComponent'Atlas_8x4_Dump_C:FrontDomeLightSlot_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.37"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2EE145E8-4EB9487C-69FA3D8E-42A2A9B9",
+      "InternalVariableName": "FrontDomeLightSlot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_16",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MHWheelComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MHWheelComponent'Atlas_8x4_Dump_C:Wheel4_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.11"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "B37094FA-41CF27D6-A0C17DB9-3FB95F32",
+      "InternalVariableName": "Wheel4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_17",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BlinkerLight_01_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.1"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BlinkerLight_01_C'Atlas_8x4_Dump_C:BlinkerLight_03_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.3"
+      },
+      "VariableGuid": "5A95E07C-40C64B5B-514C9785-ED1A927F",
+      "InternalVariableName": "BlinkerLight_03"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'TaliLight_01_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Light/TaliLight_01.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TaliLight_01_C'Atlas_8x4_Dump_C:TaliLight_02_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.79"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.54"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.56"
+        }
+      ],
+      "VariableGuid": "DD74F341-49B93255-4180079B-4F2B453B",
+      "InternalVariableName": "TaliLight_02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_19",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BlinkerLight_01_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.1"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BlinkerLight_01_C'Atlas_8x4_Dump_C:BlinkerLight_04_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.4"
+      },
+      "VariableGuid": "72AB0CF1-4256BEAF-CEE481B7-DD4BAA56",
+      "InternalVariableName": "BlinkerLight_04"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MHTransmissionComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MHTransmissionComponent'Atlas_8x4_Dump_C:Transmission_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.10"
+      },
+      "VariableGuid": "A5C93039-42C8F61E-51651682-E2CDC31D",
+      "InternalVariableName": "Transmission"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_20",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'ReverseLight_01_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Light/ReverseLight_01.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ReverseLight_01_C'Atlas_8x4_Dump_C:ReverseLight_02_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.41"
+      },
+      "VariableGuid": "6F7A1FB1-4A118CF1-9584D990-1A38D7C7",
+      "InternalVariableName": "ReverseLight_02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_21",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTVehicleDoorComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTVehicleDoorComponent'Atlas_8x4_Dump_C:Dump_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.32"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.60"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.61"
+        }
+      ],
+      "VariableGuid": "C04A7032-4361CA74-B62B4CA1-5CFDC1BB",
+      "InternalVariableName": "Dump"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BlinkerLight_01_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.1"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BlinkerLight_01_C'Atlas_8x4_Dump_C:BlinkerLight_01_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.1"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0E9825DE-440D06CB-BCBCCB94-6EE46847",
+      "InternalVariableName": "BlinkerLight_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_24",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BlinkerLight_01_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Light/BlinkerLight_01.1"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BlinkerLight_01_C'Atlas_8x4_Dump_C:BlinkerLight_02_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.2"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8C44AE24-4C2CC2EB-9F4FD295-93C799E1",
+      "InternalVariableName": "BlinkerLight_02"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_25",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTVehicleCargoSpaceComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTVehicleCargoSpaceComponent'Atlas_8x4_Dump_C:CargoSpace_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.31"
+      },
+      "VariableGuid": "A3147B99-4124B75B-077DC0BD-909B6CF1",
+      "InternalVariableName": "CargoSpace"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_26",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTVehicleDoorComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTVehicleDoorComponent'Atlas_8x4_Dump_C:DumpDoor_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.33"
+      },
+      "VariableGuid": "BDF11CBA-48220659-E5E82FB7-6DA24E05",
+      "InternalVariableName": "DumpDoor"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_27",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MHWheelComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MHWheelComponent'Atlas_8x4_Dump_C:Wheel7_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.14"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FC488CA6-42CF2AA8-060E2FA4-449BD6BC",
+      "InternalVariableName": "Wheel7"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_28",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MHWheelComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MHWheelComponent'Atlas_8x4_Dump_C:Wheel6_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.13"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "FC03AFBD-42A31561-EABFDBA1-36296F91",
+      "InternalVariableName": "Wheel6"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_29",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTDifferentialComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTDifferentialComponent'Atlas_8x4_Dump_C:Differential2_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.21"
+      },
+      "VariableGuid": "EDCB7F45-49B03277-CF37BF9F-03C6A1F1",
+      "InternalVariableName": "Differential2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTMirrorComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTMirrorComponent'Atlas_8x4_Dump_C:LeftSideMirror_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.25"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "882B6DE0-474C6AE0-9ECF0AA6-5F93B400",
+      "InternalVariableName": "LeftSideMirror"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_30",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTDifferentialComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTDifferentialComponent'Atlas_8x4_Dump_C:Differential1_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.20"
+      },
+      "VariableGuid": "239071B2-4D420BAF-C03416B0-D3A893AD",
+      "InternalVariableName": "Differential1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'Atlas_8x4_Dump_C:8x4_Frame_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.75"
+      },
+      "ParentComponentOrVariableName": "Mesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "EC7E8287-42983C9A-0C57139F-F4030F8E",
+      "InternalVariableName": "8x4_Frame"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'TaliLight_01_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Light/TaliLight_01.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "TaliLight_01_C'Atlas_8x4_Dump_C:TaliLight_01_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.78"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.70"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.52"
+        }
+      ],
+      "VariableGuid": "DE1C9DAC-41959C10-08E431AB-0AB1C709",
+      "InternalVariableName": "TaliLight_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTSeatComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTSeatComponent'Atlas_8x4_Dump_C:PassengerSeat1_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.28"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "55A3B3B7-4F1F7B68-722B8391-E9C333A7",
+      "InternalVariableName": "PassengerSeat1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'ReverseLight_01_C'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/Light/ReverseLight_01.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ReverseLight_01_C'Atlas_8x4_Dump_C:ReverseLight_01_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.40"
+      },
+      "VariableGuid": "B95681B6-497F4740-B5F28597-8F22BF05",
+      "InternalVariableName": "ReverseLight_01"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'MTSeatComponent'",
+        "ObjectPath": "/Script/MotorTown"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "MTSeatComponent'Atlas_8x4_Dump_C:PassengerSeat2_GEN_VARIABLE'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.29"
+      },
+      "ParentComponentOrVariableName": "Body",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "DB8972A4-4BA4E995-3D028794-366221CB",
+      "InternalVariableName": "PassengerSeat2"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.55"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.65"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.45"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.47"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.46"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.49"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.50"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.68"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.53"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.58"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.59"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.48"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.51"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.44"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.69"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.71"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.57"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.62"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.63"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.64"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.66"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.67"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.55"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.65"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_10'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.45"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_12'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.47"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_11'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.46"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_14'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.49"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_15'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.50"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_5'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.68"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_7'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.70"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_17'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.52"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_18'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.53"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_19'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.54"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_20'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.56"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_23'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.58"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_24'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.59"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_13'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.48"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_16'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.51"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.44"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_6'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.69"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_9'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.71"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_21'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.57"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_25'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.60"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_26'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.61"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_27'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.62"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_28'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.63"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_29'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.64"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_30'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.66"
+        },
+        {
+          "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.67"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Atlas_8x4_Dump_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.43"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "DriverSeatInteractionSphere",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__MTVehicleBaseBP_C:DriverSeatInteractionSphere'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.23"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__Atlas_8x4_Dump_C:Mesh'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.76"
+      },
+      "RelativeLocation": {
+        "X": 377.73502,
+        "Y": -156.63486,
+        "Z": 100.00005
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "PassengerSeatInteractionSphere",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__MTVehicleBaseBP_C:PassengerSeatInteractionSphere'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.24"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__Atlas_8x4_Dump_C:Mesh'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.76"
+      },
+      "RelativeLocation": {
+        "X": 377.73502,
+        "Y": 156.63486,
+        "Z": 100.00005
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "8x4_Frame_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'8x4_Frame'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/8x4_Frame.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_Vehicle",
+        "CollisionProfileName": "Vehicle",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "CargoSpace",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        },
+        "MassInKgOverride": 4400.0,
+        "COMNudge": {
+          "X": 30.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "bOverrideMass": true
+      },
+      "ComponentTags": [
+        "LocalBounds"
+      ],
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Mesh",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__MTVehicleBaseBP_C:Mesh'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.25"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Cab_Front2Axle'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Cab_Front2Axle.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "BodyInstance": {
+        "MassInKgOverride": 1100.0,
+        "LinearDamping": 0.0,
+        "COMNudge": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -65.0
+        },
+        "InertiaTensorScale": {
+          "X": 0.85,
+          "Y": 0.9,
+          "Z": 0.9
+        },
+        "bOverrideMass": true
+      },
+      "AttachParent": {
+        "ObjectName": "MTVehicleRootComponent'Default__Atlas_8x4_Dump_C:Body'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.38"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SteeringWheel",
+    "Outer": "Default__Atlas_8x4_Dump_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__MTVehicleBaseBP_C:SteeringWheel'",
+      "ObjectPath": "MotorTown/Content/Cars/MTVehicleBaseBP.26"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Atlas'",
+        "ObjectPath": "MotorTown/Content/Cars/Parts/SteeringWheels/Atlas.2"
+      },
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "AttachParent": {
+        "ObjectName": "StaticMeshComponent'Default__Atlas_8x4_Dump_C:Mesh'",
+        "ObjectPath": "MotorTown/Content/Cars/Models/Atlas/Atlas_8x4_Dump.76"
+      }
+    }
+  },
+  {
+    "Type": "TaliLight_01_C",
+    "Name": "TaliLight_01_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/Light/TaliLight_01.TaliLight_01_C'",
+    "Template": {
+      "ObjectName": "TaliLight_01_C'Default__TaliLight_01_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/Light/TaliLight_01.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -431.7437,
+        "Y": -85.79366,
+        "Z": 96.1089
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 180.0,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": -431.7437,
+      "Y": -85.79366,
+      "Z": 96.1089
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  },
+  {
+    "Type": "TaliLight_01_C",
+    "Name": "TaliLight_02_GEN_VARIABLE",
+    "Outer": "Atlas_8x4_Dump_C",
+    "Class": "BlueprintGeneratedClass'MotorTown/Content/Cars/Parts/Light/TaliLight_01.TaliLight_01_C'",
+    "Template": {
+      "ObjectName": "TaliLight_01_C'Default__TaliLight_01_C'",
+      "ObjectPath": "MotorTown/Content/Cars/Parts/Light/TaliLight_01.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelativeLocation": {
+        "X": -431.7437,
+        "Y": 85.79305,
+        "Z": 96.1089
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 0.0
+      }
+    },
+    "RelativeRotation": {
+      "Pitch": 0.0,
+      "Yaw": 180.0,
+      "Roll": 0.0
+    },
+    "RelativeLocation": {
+      "X": -431.7437,
+      "Y": 85.79305,
+      "Z": 96.1089
+    },
+    "IntensityNits": 16.0,
+    "bUseInverseSquaredFalloff": true
+  }
+]
